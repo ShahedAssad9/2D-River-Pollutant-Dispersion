@@ -2,7 +2,7 @@
 
 In this project, I use the example in Chapter 15 of the Marcello Benedini and George Tsakiris book and implement the same methodology to build the Python code.
 
-Before introducing the example, let’s first understand some basic terminology we are going to use throughout the project.
+Before introducing the example, let’s first understand some basic concept we are going to use throughout the project.
 
 There are three ways to build a model: the hydraulic model, analogical model, and numerical model. The hydraulic model is a small laboratory model with similar geometry and dynamics (like similar Froude number and Reynolds number), while an analogical model uses a completely different physical model that follows mathematically equivalent equations to represent a system, such as using Ohm’s law to represent groundwater flow.
 
