@@ -138,4 +138,12 @@ The code attached below ([`Pollution_Dispersion_2D_River.py`](Pollution_Dispersi
 
 ### Simulation Animation (15 Minutes)
 
-<img width="886" height="502" alt="river_case_study" src="https://github.com/user-attachments/assets/74e419db-39f8-4bb8-8252-9dbdd2469b4f" />
+
+
+https://github.com/user-attachments/assets/3fe45385-85c9-4ce0-8398-688b6e2a1c0e
+
+
+
+
+
+
