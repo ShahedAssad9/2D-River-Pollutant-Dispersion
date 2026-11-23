@@ -50,16 +50,6 @@ $$
 \frac{\partial C}{\partial t} + u\frac{\partial C}{\partial x} + v\frac{\partial C}{\partial y} + w\frac{\partial C}{\partial z} = E_x\frac{\partial^2 C}{\partial x^2} + E_y\frac{\partial^2 C}{\partial y^2} + E_z\frac{\partial^2 C}{\partial z^2} - kC
 $$
 
-To tell whether a river is advection-dominated or dispersion-dominated, engineers compute the Péclet number:
-
-$$
-\text{Pe} = \frac{u\,L}{E} \qquad \left(\text{or on a numerical grid: } \text{Pe}_{\text{grid}} = \frac{u\,\Delta x}{E}\right)
-$$
-
-* $\text{Pe} \gg 1$ **(Advection-dominated):** Fast river, low mixing. The pollutant travels as a tight, sharp plume downstream (harder for central FDM schemes unless you use Upwind or small $\Delta x$).
-* $\text{Pe} \ll 1$ **(Dispersion-dominated):** Slow or stagnant water, strong mixing. The pollutant spreads outward in all directions like ink in a still pond.
-* **In our case study ($u = 1\text{ m/s}$, $\Delta x = 2\text{ m}$, $E = 5\text{ m}^2/\text{s}$):** $\text{Pe}_{\text{grid}} = \frac{1 \times 2}{5} = 0.4 \le 2$, which is why our grid stayed completely smooth and oscillation-free.
-
 ## Case Study Example
 
 Okay, now let’s introduce the example:
