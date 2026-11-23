@@ -131,6 +131,11 @@ The code attached below ([`Pollution_Dispersion_2D_River.py`](Pollution_Dispersi
 
 ![Isoconcentration Lines at t = 900.0 s (0.25 h)](images/isoconcentration_contours.png)
 
+
+
+
+
+
 ### Simulation Animation (15 Minutes)
 
-<!-- To embed the video directly in GitHub: edit this README.md on GitHub.com and drag-and-drop "Video Project.mp4" right here -->
+<img width="886" height="502" alt="river_case_study" src="https://github.com/user-attachments/assets/74e419db-39f8-4bb8-8252-9dbdd2469b4f" />
